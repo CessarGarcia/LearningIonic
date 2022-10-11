@@ -1,0 +1,24 @@
+ion-card{
+    text-align: center;
+    position: relative;
+    border-radius: 25px;
+}
+.card-title{
+    font-size: 23px;
+    font-weight: bold;
+    margin: 8px 0;
+    text-align: center;
+}
+
+img{
+    max-width: 400px;
+    max-height: 400px;
+    color: #5f5d5d;
+ }
+
+.back{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    color: #fff;
+}

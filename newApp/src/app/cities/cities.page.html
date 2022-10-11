@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar color="mycolor">
+    <ion-title>Cities</ion-title>
+    <ion-buttons slot="start" (click)="home()">
+      <ion-icon name="arrow-back-circle-outline" class="back"></ion-icon>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-row>
+    <ion-col sizeLg="6" sizeMd="6" sizeXs="12" *ngFor="let city of cities">
+      <ion-card [routerLink]="['/city', city.id]">
+          <img src="../../assets/cities/{{city.img}}" alt="Ciudades">
+          <div class="card-title">
+            {{city.city}}
+          </div>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+</ion-content>

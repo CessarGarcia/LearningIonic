@@ -1,0 +1,28 @@
+{
+    "data":[
+        {
+            "name": "Finn",
+            "state": "I'm a big deal",
+            "description": "Listen, I've had a pretty messed up day...",
+            "img": "avatar-finn.png"
+        },
+        {
+            "name": "Han",
+            "state": "Look, Kid",
+            "description": "I've got enough on my plate as it is, and I...",
+            "img": "avatar-han.png"
+        },
+        {
+            "name": "Rey",
+            "state": "I can handle myself",
+            "description": "You will remove these restraints and leave...",
+            "img": "avatar-rey.png"
+        },
+        {
+            "name": "Luke",
+            "state": "Your thoughts betray you",
+            "description": "I feel the good in you, the conflict...",
+            "img": "avatar-luke.png"
+        }
+    ]
+}

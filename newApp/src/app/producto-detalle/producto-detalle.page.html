@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>producto-detalle</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed" [routerLink]="['/cart']">
+    <img src="" alt="">
+  </ion-fab>
+  <div id="container">
+    <div class="container-img">
+      <img src="{{URL}}{{img}}" class=""img>
+    </div>
+
+    <div class="name">{{name}}</div>
+    <div class="tipo">Categoria: {{categoria}}</div> 
+    <div class="tipo">Tipo: {{tipo}}</div>
+    <div class="description" [innerHtml]="descripcion"> </div>
+
+    <div class="container-btn" *ngIf="forSale">
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <img src="" class="icon" (click)="restItem()">
+          </ion-col>
+          <ion-col>
+            <div class="quantity">{{quantity}}</div>
+          </ion-col>
+          <ion-col>
+            <img src="" class="icon" (click)="addItem()">
+          </ion-col>
+        </ion-row>
+
+          <ion-row>
+            <ion-col>
+              <div class="total">Total: {{total}}</div>
+            </ion-col>
+          </ion-row>  
+      </ion-grid>
+      <button ion-button class="button1" full round (click)="addCart(id, quantity)">Añadir al carrito</button>
+    </div>
+  </div>
+</ion-content>

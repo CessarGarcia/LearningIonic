@@ -1,0 +1,22 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "city": "Atlanta",
+            "img": "atlanta.jpg", 
+            "desc": "Atlanta es la capital y ciudad más extensa y poblada del estado de Georgia y la trigésimo tercera en Estados Unidos en cantidad de habitantes en 2008."
+        },
+        {
+            "id": 2,
+            "city": "Monterrey",
+            "img": "monterrey.jpg",
+            "desc": "Atlanta es la capital y ciudad más extensa y poblada del estado de Georgia y la trigésimo tercera en Estados Unidos en cantidad de habitantes en 2008."
+        },
+        {   
+            "id": 3,  
+            "city": "Sidney",
+            "img": "Sidney.jpg",
+            "desc": "Sídney es catalogada como una de las 15 ciudades más visitadas del mundo, con millones de turistas viniendo cada año a ver"
+        }
+    ]
+}

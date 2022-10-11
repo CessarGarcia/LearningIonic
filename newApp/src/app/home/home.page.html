@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar color="mycolor">
+    <ion-icon name="home-outline" class="home"></ion-icon>
+    <ion-title>Home</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+    <!-- <ion-button [routerLink]="['/customers']">Ir Al Customers</ion-button>
+    -->
+
+    <ion-button (clic)="scan()">Escanear Código</ion-button>
+        {{code}}
+    <ion-grid>
+      <ion-row>
+        <ion-col sizeLg="9" sizeMd="4" sizeXs="6">
+          <ion-title>Texto 1</ion-title>
+        </ion-col>
+        <ion-col sizeLg="3" sizeMd="4" sizeXs="6">
+          <ion-title>Texto 2</ion-title>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col sizeLg="3" sizeMd="4" sizeXs="6">
+          <ion-title>Texto 3</ion-title>
+        </ion-col>
+        <ion-col sizeLg="2" sizeMd="4" sizeXs="6">
+          <ion-title>Texto 4</ion-title>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+</ion-content>
+
+
+<ion-footer>
+  <ion-toolbar color="mycolor">
+    <ion-title>Footer </ion-title>
+  </ion-toolbar>
+</ion-footer>
